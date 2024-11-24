@@ -127,8 +127,7 @@ strong {
 .title {
     color: var(--fonte);
 }
-
-
+        /* Sobre */
 .section-sobre {
     display: flex;
     flex-direction: column;
@@ -151,23 +150,18 @@ strong {
     color: var(--fonte);
     text-align: justify;
 }
+        /* Experiencia */
 .section-experiencia{
     display: flex;
     flex-direction: column;
     align-items: center;
 } 
-.cima {
+.section-experiencia > div {
     display: flex;
     justify-content: center;
+    flex-direction: row;
+    gap: 2rem;
     flex-wrap: wrap;
-    gap: 10rem;
-    padding: 1rem;
-}
-.baixo {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 1rem;
 }
 h5 {
     color: var(--fonte);
@@ -178,6 +172,7 @@ h5 {
     color: var(--fonte);
     text-align: justify;
 }
+        /* Footer */
 footer {
     padding: 4rem;
     display: flex;
